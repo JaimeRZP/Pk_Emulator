@@ -39,6 +39,8 @@ class LinPkEmulator:
         
         return 
             
+    def get_k_arr(self):
+        return self.k_arr
     
     def get_evecs(self):
         if self.evecs is None:
